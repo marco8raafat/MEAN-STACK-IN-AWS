@@ -347,7 +347,40 @@ angular.module('myApp', [])
 </body>
 </html>
 ```
+---
+Perfect! I can add a new section in your README explaining how to run the Node.js server in the background using `&`, and also a tip about `nohup` for long-running background processes on AWS. Here’s how it would look:
+
+---
+
+## 🟢Run Server in Background
+
+While developing, you might want your **Node.js server** to keep running even after you close the terminal or SSH session. There are two common ways to do this:
+
+### Using `&` to run in background
+
+This will run the server in the background of your current terminal session:
+
+```bash
+node server.js &
+```
+
+* The `&` symbol tells Linux to run the process in the background.
+* After running, you’ll see a **process ID (PID)** printed.
+* To see background jobs:
+
+```bash
+jobs
+```
+
+* To bring it back to the foreground:
+
+```bash
+fg %1
+```
+---
 ![curlTestSuccessful](screenshots/curlTestSuccessful.png)
+---
+
 ---
 
 # 🔄 Step 8 — Open Port 3300 in Security Group
