@@ -122,8 +122,6 @@ Install required packages:
 npm install express mongoose body-parser
 ```
 
-![npmInit](screenshots/npmInit.png)
-
 ---
 
 # 🚀 Step 4 — Server Configuration
@@ -349,7 +347,7 @@ angular.module('myApp', [])
 </body>
 </html>
 ```
-
+![curlTestSuccessful](screenshots/curlTestSuccessful.png)
 ---
 
 # 🔄 Step 8 — Open Port 3300 in Security Group
