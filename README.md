@@ -348,13 +348,9 @@ angular.module('myApp', [])
 </html>
 ```
 ---
-Perfect! I can add a new section in your README explaining how to run the Node.js server in the background using `&`, and also a tip about `nohup` for long-running background processes on AWS. Here’s how it would look:
-
----
-
 ## 🟢Run Server in Background
 
-While developing, you might want your **Node.js server** to keep running even after you close the terminal or SSH session. There are two common ways to do this:
+While developing, you might want your **Node.js server** to keep running even after you close the terminal:
 
 ### Using `&` to run in background
 
@@ -375,7 +371,7 @@ jobs
 * To bring it back to the foreground:
 
 ```bash
-fg %1
+fg
 ```
 ---
 ![curlTestSuccessful](screenshots/curlTestSuccessful.png)
